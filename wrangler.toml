@@ -1,6 +1,4 @@
 name = "nainaism"
 compatibility_date = "2026-01-01"
 compatibility_flags = ["nodejs_compat"]
-
-# For Cloudflare Pages, the site bucket is specified in deploy command
-# Use: wrangler pages deploy dist
+pages_build_output_dir = "dist"
