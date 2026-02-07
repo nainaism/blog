@@ -36,7 +36,7 @@ export default defineConfig({
   // [Adapter]
   // https://docs.astro.build/en/guides/deploy/
   adapter: cloudflare({ imageService: 'compile' }),
-  output: 'server',
+  output: 'hybrid',
 
   // [Assets]
   image: {
