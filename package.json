@@ -9,7 +9,7 @@
     "dev": "astro dev",
     "dev:check": "astro check --watch & astro dev",
     "build": "astro-pure check && astro check && astro build",
-    "deploy": "wrangler pages deploy dist",
+    "deploy": "wrangler pages project create nainaism --production-branch=main 2>/dev/null || true && wrangler pages deploy dist",
     "preview": "astro preview",
     "sync": "astro sync",
     "check": "astro check",
