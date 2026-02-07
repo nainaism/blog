@@ -1,10 +1,6 @@
-# wrangler.toml is not needed for Cloudflare Pages deployment
-# Cloudflare Pages automatically deploys from the dist/ folder
-# This file is kept for local development with `wrangler pages dev`
-
 name = "nainaism"
 compatibility_date = "2026-01-01"
 compatibility_flags = ["nodejs_compat"]
 
-# For Cloudflare Pages, the [site] section should be removed
-# The platform automatically serves the dist/ folder
+# For Cloudflare Pages, the site bucket is specified in deploy command
+# Use: wrangler pages deploy dist
